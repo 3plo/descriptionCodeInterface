@@ -1,0 +1,88 @@
+.submit, .came_back{
+    background-color:#58B9EB;
+    border:1px solid #40A2D4;
+    color:#FFFFFF;
+    cursor:pointer;
+    font-family:'Myriad Pro',Arial,Helvetica,sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    padding:4px;
+    margin-top:5px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+}
+
+.came_back{
+    background-color:#FF5899;
+    border:1px solid #D440A2;
+}
+
+#main_container{
+    position:relative;
+    margin:0 auto;
+    width:900px;
+}
+
+#input_discount_code, #input_order_id{
+    width:400px;
+}
+
+tr:nth-child(2n) {
+    background: #f0f0f0;
+}
+
+#discount_info_container, #orders_info_container, #discount_code_input_form_container, #order_id_input_form_container{
+    padding:12px;
+    width:400px;
+    position:relative;
+    background-color:#fcfcfc;
+}
+
+#discount_main_container
+{
+    width: 50%;
+    float: left;
+}
+
+#order_main_contaier
+{
+    margin-left: 50%;
+}
+
+#discount_info, .order_info{
+    padding:0px;
+    width:100%;
+    position:relative;
+    margin-bottom:25px;
+    border-spacing: 0;
+}
+
+.form_element, .info_label{
+    text-align: center;
+}
+
+
+.positive_result{
+    font-size: 25px;
+    color: #08F319;
+}
+
+.negative_result{
+    font-size: 25px;
+    color: #FF0000;
+}
+
+.allert_container{
+    position:relative;
+    background-color:#FCFCFC;
+    margin-left: 32.3%;
+    margin-right: 32.3%;
+}
+
+.result_container{
+    position:relative;
+    background-color:#FCFCFC;
+    margin-left: 20%;
+    margin-right: 15%;
+}
